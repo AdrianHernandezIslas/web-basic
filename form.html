@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="https://fakestoreapi.com/products" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div class="form-group">
+            <label for="primerApellido">Primer Apellido</label>
+            <input type="text" name="primerApellido" id="primerApellido"  required />
+        </div>
+        
+        
+
+        <label for="fechaNacimiento">Fecha Nacimiento</label>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" />
+        <label for="telefono">Tel</label>
+        <input type="tel" name="telefono" id="telefono" />
+        <label for="pais"></label>
+        <select name="pais" id="pais">
+            <option value="" disabled></option>
+            <option value="MX">Mexico</option>
+            <option value="BR">Brasil</option>
+        </select>
+        <textarea name="quejas" id="quejas" cols="30" rows="10"></textarea>
+        <input type="submit" value="Aceptar" />
+
+    </form>
+    <button>Holis</button>
+</body>
+
+</html>

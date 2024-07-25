@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    border: 0;
+    background-color: rgb(254, 254, 254);
+}
+
+form{
+    background-color: azure;
+    padding-left: 5rem;
+}
+
+.form-group{
+    padding-bottom: 1rem;
+}
